@@ -111,7 +111,7 @@ button:hover{
 
 form{
     text-align: left;
-    font-size: 14px;
+    font-size: 20px;
     width: 90%;
     margin: 2%;
 }
@@ -120,6 +120,7 @@ input{
     width: 100%;
     height: 20px;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .linha{
@@ -130,7 +131,7 @@ input{
 
 #rodape{
     width: 100%;
-    height: 110px;
+    height: 130px;
     background-color:rgb(255, 109, 0);
     color: black;
     box-shadow: 0px 0px 5px;
