@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="img/icon.png" rel="shortcut icon">
+    <title>Bem-vindo - Pedra Preta</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/pedra.png">
+        </div>
+    </header>
+    <div id="content">
+        <h1>SEJA BEM-VINDO à Pedra Preta</h1> 
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp; </p>
+
+        <h2>Você sabia?</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp; Já reparou o que significa nome <spam>&nbsp;Itaú&nbsp;</spam>? <br> 
+        <i>Para que isso fosse feito, o diretor de marketing da época, Francisco Madeira e Sousa, chamou Francesc Petit, um dos fundadores da 
+        agência de publicidade DPZ. Em depoimento ao banco, Petit falou da ideia que teve naquele momento: “‘Itaú’ é um nome muito curioso, 
+        ele chama a atenção porque ninguém entende, ninguém sabe o que é. E, no entanto, ele tinha que ter um símbolo, uma leitura e, em 
+        tupi-guarani, quer dizer pedra preta”.</i> fonte: <a href="https://www.itau.com.br/sobre/marca/uma-marca-que-acompanha-as-transformacoes-da-sociedade.html" target="blank">
+        https://www.itau.com.br/sobre/marca/uma-marca-que-acompanha-as-transformacoes-da-sociedade.html</a></p>
+
+        <h2>Topa diversão?</h2>
+        <p>Vamos brincar, você preencha seus dados</p>
+
+        <button id="open">Cadastra-se</button>
+        <div class="modal-container" id="modal_container">
+            <div class="modal">
+                <h1>Preencha seus dados:</h1>
+                <h6>Os campos marcados com asterisco (*) são de preenchimento obrigatório</h6>
+
+                <form 	action="incluirProdutos.php"
+				method="post">
+				<!--enctype="multipart/form-data">-->
+				
+                    Nome: *
+                    <input 	type="text"
+                            name="nome"
+                            maxlength="200"
+                            placeholder="Informe seu Nome Completo"
+                            size="30">
+                    <br>
+                    
+                    CPF: *
+                    <input 	type="text"
+                            name="ID"
+                            maxlength="11"
+                            placeholder="Informe seu CPF"
+                            size="30">
+                    <br>
+
+                    RG:
+                    <input 	type="text"
+                            name="RG"
+                            maxlength="9"
+                            placeholder="Informe seu RG"
+                            size="30">
+                    <br>
+
+                    Sexo:
+                    <input class="radio" type="radio" name="genero" value="M"> Masculino
+                    <input class="radio" type="radio" name="genero" value="F" checked> Feminino
+                    <br>
+
+                    Endereço: *
+                    <input 	type="text"
+                            name="endereco"
+                            maxlength="200"
+                            placeholder="Informe seu Nome Completo"
+                            size="30">
+                    <br>
+
+                    Número: *
+                    <input 	type="text"
+                            name="numero"
+                            maxlength="5"
+                            placeholder="Informe seu Nome Completo"
+                            size="30">
+                    <br>
+
+                    Bairro:
+                    <input 	type="text"
+                            name="bairro"
+                            maxlength="100"
+                            placeholder="Informe seu Nome Completo"
+                            size="30">
+                    <br>
+
+                    Cidade:
+                    <input 	type="text"
+                            name="cidade"
+                            maxlength="150"
+                            placeholder="Informe seu Nome Completo"
+                            size="30">
+                    <br>
+
+                    Estado:
+                    <select name="tipo">
+                        <option value="">Escolha</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select> 
+                    <br>
+
+                    CEP:
+                    <input 	type="text"
+                            name="cidade"
+                            maxlength="8"
+                            placeholder="Informe cep"
+                            size="30">
+                    <br>
+
+                    Telefone Celular: *
+                    <input 	type="text"
+                            name="cidade"
+                            maxlength="11"
+                            placeholder="Informe cep"
+                            size="30">
+                    <br>
+
+                    Telefone Fixo:
+                    <input 	type="text"
+                            name="cidade"
+                            maxlength="10"
+                            placeholder="Informe cep"
+                            size="30">
+                    <br>
+                </form>
+                <div class="linha">
+
+                </div>
+                <button id="salve">Salvar</button>
+                <button id="close">Fechar</button>
+            </div>
+        </div>
+        <a href="cadastrado.html"><button>Consulta dados</button></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!--&nbsp;&nbsp;&nbsp;&nbsp;Olá, meu nome é Diego Justino, sou deficiente auditivo e estudante de Análise e Desenvolvimento de Sistemas.
+        Entrei na tecnologia e não me deixou sair, descobri que uns inúmeros que possuem criar-->
