@@ -60,26 +60,3 @@ function checkChar(e) {
       return true;
   }
 }
-
-function validation() {
-
-  var Nome = '';
-  var cpf = '';
-  var end = '';
-  var num = '';
-  var cel = '';
-
-  var Nome = document.getElementById('nome').value;
-  var cpf = document.getElementById('ID').value;
-  var end = document.getElementById('endereco').value;
-  var num = document.getElementById('numero').value;
-  var cel = document.getElementById('telCel').value;
-
-  if ((nome == Nome) && (ID == cpf) && (endereco == end) && (numero == num) && (telCel == cel)) {
-    alert("Os campos marcados com asterisco (*) são de preenchimento obrigatório");
-  }
-  else {
-    alert("Salvo com sucesso");
-  }
-  return false;
-}
