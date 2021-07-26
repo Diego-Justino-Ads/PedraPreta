@@ -20,12 +20,12 @@
         <p>&nbsp;&nbsp;&nbsp;&nbsp; </p>
 
         <h2>Você sabia?</h2>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp; Já reparou o que significa nome <span>&nbsp;Itaú&nbsp;</span>? <br> 
-        <i>Para que isso fosse feito, o diretor de marketing da época, Francisco Madeira e Sousa, chamou Francesc Petit, um dos fundadores da 
-        agência de publicidade DPZ. Em depoimento ao banco, Petit falou da ideia que teve naquele momento: “‘Itaú’ é um nome muito curioso, 
-        ele chama a atenção porque ninguém entende, ninguém sabe o que é. E, no entanto, ele tinha que ter um símbolo, uma leitura e, em 
-        tupi-guarani, quer dizer pedra preta”.</i> fonte: <a href="https://www.itau.com.br/sobre/marca/uma-marca-que-acompanha-as-transformacoes-da-sociedade.html" target="blank">
-        www.itau.com.br</a></p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp; Já reparou o que significa nome <span>&nbsp;Itaú&nbsp;</span>? <br> 
+			<i>Para que isso fosse feito, o diretor de marketing da época, Francisco Madeira e Sousa, chamou Francesc Petit, um dos fundadores da 
+			agência de publicidade DPZ. Em depoimento ao banco, Petit falou da ideia que teve naquele momento: “‘Itaú’ é um nome muito curioso, 
+			ele chama a atenção porque ninguém entende, ninguém sabe o que é. E, no entanto, ele tinha que ter um símbolo, uma leitura e, em 
+			tupi-guarani, quer dizer pedra preta”.</i> fonte: <a href="https://www.itau.com.br/sobre/marca/uma-marca-que-acompanha-as-transformacoes-da-sociedade.html" target="blank">
+			www.itau.com.br</a></p>
 
         <h2>Topa diversão?</h2>
         <p>Vamos brincar, você preencha seus dados</p>
@@ -36,7 +36,7 @@
                 <h1>Preencha seus dados:</h1>
                 <h6>Os campos marcados com asterisco (*) são de preenchimento obrigatório</h6>
 
-                <form name="myForm" action="/action_page.php" onSubmit="return validate()" method="post">
+                <form name="myForm" action="incluirCadastro.php" onSubmit="return validate()" method="post">
 				<!--enctype="multipart/form-data">-->
 				
                     Nome: *
@@ -55,7 +55,7 @@
                         type="text"
                         name="ID"
                         id="CPF"
-                        maxlength="11"
+                        maxlength="14"
                         placeholder="Informe seu CPF"
                         size="30"
                         required>
@@ -65,13 +65,13 @@
                     <input 	
                         type="text"
                         name="RG"
-                        maxlength="9"
+                        maxlength="12"
                         placeholder="Informe seu RG"
                         size="30">
                     <br>
 
                     Sexo:
-                    <select name="tipo">
+                    <select name="sexo">
                         <option value="">Escolha</option>
                         <option value="M">Masculino</option>
                         <option value="F">Feminino</option>
@@ -84,7 +84,7 @@
                     <input 	
                         type="text"
                         name="endereco"
-                        maxlength="200"
+                        maxlength="150"
                         placeholder="Informe seu endereço"
                         size="30"
                         required>
@@ -104,7 +104,7 @@
                     <input 	
                         type="text"
                         name="bairro"
-                        maxlength="100"
+                        maxlength="40"
                         placeholder="Informe seu bairro"
                         size="30">
                     <br>
@@ -113,13 +113,13 @@
                     <input 	
                         type="text"
                         name="cidade"
-                        maxlength="150"
+                        maxlength="100"
                         placeholder="Informe sua cidade"
                         size="30">
                     <br>
 
                     Estado:
-                    <select name="tipo">
+                    <select name="estado">
                         <option value="">Escolha</option>
                         <option value="AC">Acre</option>
                         <option value="AL">Alagoas</option>
@@ -158,7 +158,7 @@
                         type="text"
                         name="cep"
                         id="CEP"
-                        maxlength="8"
+                        maxlength="9"
                         placeholder="Informe cep"
                         size="30">
                     <br>
@@ -191,7 +191,7 @@
             </div>
         </div>
         
-        <a href="cadastrado.html"><button>Consulta dados</button></a>
+        <a href="cadastrado.php"><button>Consulta dados</button></a>
     </div>
 
     <div id="rodape">
@@ -199,12 +199,11 @@
 
         <p>Programa de Formação Tech Itaú PCD em parceria com a Gama Academy.</p>
 
-        <p>Desenvolvido por Diego Justino Amaral de Souza</p>
+        <p>Desenvolvido por Diego Justino Amaral de Souza.</p>
     </div>
     
     <script src="script.js"></script>
 </body>
 </html>
 
-<!--&nbsp;&nbsp;&nbsp;&nbsp;Olá, meu nome é Diego Justino, sou deficiente auditivo e estudante de Análise e Desenvolvimento de Sistemas.
-        Entrei na tecnologia e não me deixou sair, descobri que uns inúmeros que possuem criar-->
+<!--Desenvolvido por Diego justino-->
