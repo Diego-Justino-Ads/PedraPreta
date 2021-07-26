@@ -58,6 +58,11 @@ button:hover{
     height: 50px;
 }
 
+.modal_button{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .modal-container{
     background-color: rgba(0, 0, 0, 0.85);
     display: flex;
