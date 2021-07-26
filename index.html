@@ -20,7 +20,7 @@
         <p>&nbsp;&nbsp;&nbsp;&nbsp; </p>
 
         <h2>Você sabia?</h2>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp; Já reparou o que significa nome <spam>&nbsp;Itaú&nbsp;</spam>? <br> 
+        <p>&nbsp;&nbsp;&nbsp;&nbsp; Já reparou o que significa nome <span>&nbsp;Itaú&nbsp;</span>? <br> 
         <i>Para que isso fosse feito, o diretor de marketing da época, Francisco Madeira e Sousa, chamou Francesc Petit, um dos fundadores da 
         agência de publicidade DPZ. Em depoimento ao banco, Petit falou da ideia que teve naquele momento: “‘Itaú’ é um nome muito curioso, 
         ele chama a atenção porque ninguém entende, ninguém sabe o que é. E, no entanto, ele tinha que ter um símbolo, uma leitura e, em 
@@ -36,8 +36,7 @@
                 <h1>Preencha seus dados:</h1>
                 <h6>Os campos marcados com asterisco (*) são de preenchimento obrigatório</h6>
 
-                <form 	action="incluirProdutos.php"
-				method="post">
+                <form name="myForm" action="/action_page.php" onSubmit="return validate()" method="post">
 				<!--enctype="multipart/form-data">-->
 				
                     Nome: *
@@ -76,7 +75,9 @@
                         <option value="MTr">Mulher trans</option>
                         <option value="NI">Prefiro não informar</option>
                     </select> 
-                    <br>
+                    <div class="linha">
+
+                    </div>
 
                     Endereço: *
                     <input 	
@@ -145,7 +146,9 @@
                         <option value="SE">Sergipe</option>
                         <option value="TO">Tocantins</option>
                     </select> 
-                    <br>
+                    <div class="linha">
+
+                    </div>
 
                     CEP:
                     <input 	
@@ -173,12 +176,10 @@
                         placeholder="Informe cep"
                         size="30">
                     <br>
-                </form>
-                <div class="linha">
 
-                </div>
                 <button id="salve">Salvar</button>
                 <button id="close">Fechar</button>
+                </form>
             </div>
         </div>
         
