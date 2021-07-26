@@ -1,0 +1,10 @@
+Me chamo Diego Justino e sou deficiente auditivo (este termo é utilizado clinicamente, 
+mas prefiro me identificar como Surdo), estou fazendo um desafio para o Programa de 
+Formação Tech Itaú PCD em parceria com a Gama Academy.
+
+Fomos desafiados a criar um formulário para registrar/cadastrar dados pessoais. 
+Então desenvolvi a página Pedra Preta para que os usuários possam de maneira 
+autônoma cadastrar seus dados pessoais.
+
+Na elaboração do site, utilizei as linguagens: HTML 5, CSS3, JavaScript, PHP e WAMP.
+
