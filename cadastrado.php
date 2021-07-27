@@ -20,14 +20,14 @@
 				header("Content-Type: text/html; charset=latin1");
 			
 			// 1 - Conectar no MYSQL via PHP
-			$con = mysqli_connect('localhost' , 'root', '');
+			$con = mysqli_connect('localhost' , 'u604983253_diegojustino', '8paHHAS#q');
 
 			// 2 - Abrir / selecionar o produtos
-			mysqli_select_db($con , 'pedraPreta') or 
+			mysqli_select_db($con , 'u604983253_pedrapreta') or 
 				die("Erro na abertura do banco: " . mysqli_error($con) );
 
 			// 3 - Criar a variável com o comando SQL de seleção de dados
-			$comandoSQL ="SELECT * FROM ppCadastrado";
+			$comandoSQL ="SELECT * FROM ppcadastrado";
 				
 			// 4 - Executar o comando no Servidor MYSQL e obter o
 			// registro de dados, contendo os times encontrados
@@ -78,7 +78,7 @@
 				// criando a matriz $dados
 				$dados = mysqli_fetch_array($registros);
 				echo "<tr>";
-				echo "<td>" . $dados["ID"] . "</td>";
+				echo "<td>" . $dados["cpf"] . "</td>";
 				echo "<td>" . $dados["nome"]. "</td>";
 				echo "<td>" . $dados["RG"]. "</td>";
 				echo "<td>" . $dados["sexo"]. "</td>";
