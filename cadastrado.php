@@ -106,7 +106,7 @@
 
         <p>Programa de Formação Tech Itaú PCD em parceria com a Gama Academy.</p>
 
-        <p>Desenvolvido por Diego Justino Amaral de Souza<./p>
+        <p>Desenvolvido por Diego Justino Amaral de Souza</p>
     </div>
 	</body>
 
