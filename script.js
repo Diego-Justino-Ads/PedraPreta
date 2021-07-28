@@ -21,7 +21,7 @@ nome.addEventListener("keypress", function(e) {
   }
 });
 
-/*Não permitir números em um input*/
+/*Não permitir caracteres em um input*/
 
 var input = document.querySelector("#CPF");
 input.addEventListener("keypress", function(e) {
